@@ -1,0 +1,29 @@
+package com.gerasymiuk.demo;
+
+public class SystemOutMessageRender implements MessageRender {
+	private MessageProvider provider;
+	@Override
+	public void render() {
+		if (provider == null) {
+			throw new RuntimeException(
+			"You must set the property messageProvider of class:"
+			+ SystemOutMessageRender.class.getName());
+			// Должно быть установлено свойство messageProvider класса
+			}
+			System.out.println(provider.getMessage());
+
+	}
+
+	@Override
+	public void setMessageProvider(MessageProvider provider) {
+		this.provider = provider;
+
+	}
+
+	@Override
+	public MessageProvider getMessageProvider() {
+		
+		return provider;
+	}
+
+}

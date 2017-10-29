@@ -1,0 +1,5 @@
+package com.gerasymiuk.demo;
+
+public interface MessageRender {
+
+}

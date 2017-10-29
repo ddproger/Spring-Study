@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=Chapter3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=1.5.8.RELEASE
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Chapter3 project for learning Spring
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.gerasymiuk
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=Chapter3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.gerasymiuk.Chapter3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=http\://start.spring.io\n
