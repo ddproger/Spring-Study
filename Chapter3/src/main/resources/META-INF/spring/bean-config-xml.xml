@@ -5,6 +5,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean id="messageRender" class="com.gerasymiuk.Chapter3.SystemOutMessageRender" p:messageProvider-ref="messageProvider"/>
-<bean id="messageProvider" class="com.gerasymiuk.Chapter3.NotHelloWorldMessageProvider"></bean>
+<bean id="messageProvider" class="com.gerasymiuk.Chapter3.ConfigurableMessageProvider">
+<constructor-arg value="Configure constructor"/>
+</bean>
 
 </beans>

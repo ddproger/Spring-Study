@@ -1,6 +1,8 @@
 package com.gerasymiuk.Chapter3;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
+
+//import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service("messageRender")
@@ -19,7 +21,8 @@ public class SystemOutMessageRender implements MessageRender {
 	}
 
 	@Override
-	@Autowired
+	//@Autowired
+	@Resource(name="messageProvider")
 	public void setMessageProvider(MessageProvider provider) {
 		this.messageProvider = provider;
 
