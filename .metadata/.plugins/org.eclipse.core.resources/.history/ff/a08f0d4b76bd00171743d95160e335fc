@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean id="messageRender" class="com.gerasymiuk.Chapter3.SystemOutMessageRender">
-<property name="messageProvider" ref="messageProvider"/>
+<property name="messageProvider" ref="messageProvider"></property>
 </bean>
 <bean id="messageProvider" class="com.gerasymiuk.Chapter3.NotHelloWorldMessageProvider"></bean>
 

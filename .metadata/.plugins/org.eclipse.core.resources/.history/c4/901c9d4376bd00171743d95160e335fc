@@ -3,9 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
-<bean id="messageRender" class="com.gerasymiuk.Chapter3.SystemOutMessageRender">
-<property name="messageProvider" ref="messageProvider"/>
-</bean>
+<bean id="messageRender" class="com.gerasymiuk.Chapter3.SystemOutMessageRender"></bean>
 <bean id="messageProvider" class="com.gerasymiuk.Chapter3.NotHelloWorldMessageProvider"></bean>
 
 </beans>
