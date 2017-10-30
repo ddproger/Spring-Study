@@ -13,8 +13,6 @@ public class Chapter3Application {
 		ctx.load("classpath:META-INF/spring/bean-config-xml.xml");
 		ctx.refresh();
 		MessageRender render = ctx.getBean("messageRender", MessageRender.class);
-		MessageProvider messageProvider = ctx.getBean("messageProvider", MessageProvider.class);
-		//render.render();
-		System.out.println(messageProvider.getMessage());
+		render.render();
 	}
 }

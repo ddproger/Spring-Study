@@ -1,8 +1,5 @@
 package com.gerasymiuk.Chapter3;
 
-import org.springframework.stereotype.Service;
-
-@Service("messageProvider")
 public class NotHelloWorldMessageProvider implements MessageProvider {
 
 	@Override
